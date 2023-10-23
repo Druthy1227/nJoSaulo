@@ -1,0 +1,16 @@
+{
+	"manifest_version": 3,
+	"name": "nJoSaulo",
+	"version": "1.4",
+	"description": "Troque todas as imagens do site por fotos do querido Jo Saulo.",
+	"icons": {
+    	"48": "icon48.png",
+        "128": "icon128.png"
+    },
+	"content_scripts": [
+	    {
+	      "matches": ["*://*/*"],
+	      "js": ["jquery.js", "nVampeta.js"]
+	    }
+  	]
+}
